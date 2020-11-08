@@ -15,10 +15,12 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.selectLines",
-            "title": "Select Lines"
-        }]
+        "commands": [
+            {
+                "command": "extension.selectLines",
+                "title": "Select Lines"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
